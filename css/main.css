@@ -45,6 +45,10 @@ body {
   font-size: 12px;
 }
 
+.navbar ul.primary_nav .chevron-image {
+  padding-left: 5px;
+}
+
 .navbar ul.primary_nav li {
   display: inline;
   padding-right: 15px;
