@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PracticePage</title>
+    <title>New York High School graduates have to re-do their final year</title>
     <link rel="stylesheet" href="css/main.css"> <!--Make sure to always link the CSS sheet-->
     
     
@@ -29,7 +29,12 @@
 
                 <ul class="primary_nav">
                     <li class="profile-btn" ><a href="#"><b>L I V E TV</b></a></li>
-                    <li class="search-glass" ><a href="#"><b>Edition</b></a></li>
+                    <li class="search-glass" ><a href="#"><b>Edition</b></a><img id="chevron" class="chevron-image" src="assets/chevron.png" height=8 onClick="rotateImg()">
+                        <script>
+                          function rotateImg() {
+                            document.querySelector("#chevron").style.transform = "rotate(180deg)";
+                          }
+                        </script></li>
                 </ul>
 
                 <div class="topRight-images">
